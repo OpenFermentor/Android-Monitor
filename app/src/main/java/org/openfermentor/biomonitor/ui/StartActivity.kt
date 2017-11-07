@@ -1,11 +1,10 @@
 package org.openfermentor.biomonitor.ui
 
-import android.content.Intent
 import android.os.Bundle
 import com.f2prateek.dart.HensonNavigable
 import com.xmartlabs.bigbang.core.controller.SessionController
 import com.xmartlabs.bigbang.ui.BaseAppCompatActivity
-import org.openfermentor.biomonitor.controller.session
+import org.openfermentor.biomonitor.helper.extensions.startFrom
 import javax.inject.Inject
 
 @HensonNavigable
@@ -15,12 +14,19 @@ class StartActivity : BaseAppCompatActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-
-    val session = sessionController.session
-    if (session == null) {
-      //TODO: handle on start activity no session
+  
+    if (sessionController.isSessionAlive) {
+      Henson.with(context)
+          .gotoMainActivity()
+          .build()
+          .startFrom(this)
     } else {
-      TODO("Handle on start activity with session")
+      Henson.with(context)
+          .gotoLoginActivity()
+          .build()
+          .startFrom(this)
     }
+    
+    finish()
   }
 }

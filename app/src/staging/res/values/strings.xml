@@ -1,4 +1,5 @@
 <resources>
-    <string translatable="false" name="app_name">Template STA</string>
-    <string translatable="false" name="url_prefix_redirect">staging.template.com</string>
+    <string translatable="false" name="app_name">BioMonitor STA</string>
+    <string name="base_url" translatable="false">http://10.0.2.2:4000/api/</string>
+    <string name="base_url_socket" translatable="false">http://10.0.2.2:4000/socket/websocket</string>
 </resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_dark"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="24dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strain"
+        android:textColor="@color/white_80"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/strainDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:text="Lorem ipsum dolor sit amet"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/medium"
+        android:textColor="@color/white_80"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/mediumDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:text="Lorem ipsum dolor sit amet"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/estimated_time"
+        android:textColor="@color/white_80"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/estimatedTimeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:text="Lorem ipsum dolor sit amet"
+        />
+
+    <TextView
+        android:id="@+id/notesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/notes"
+        android:textColor="@color/white_80"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/notesDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:text="Lorem ipsum dolor sit amet"
+        />
+
+</LinearLayout>

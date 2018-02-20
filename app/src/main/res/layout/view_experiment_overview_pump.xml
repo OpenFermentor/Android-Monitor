@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/pumpTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:paddingBottom="8dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:text="@string/peristaltic_pump"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/pumpContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:paddingBottom="18dp"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="@string/start_at"
+                android:textAlignment="textStart"
+                android:textColor="@color/grey_blue"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/pumpStartAt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                tools:text="24,7 °C"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="@string/pump_for"
+                android:textAlignment="textStart"
+                android:textColor="@color/grey_blue"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/pumpFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                tools:text="7,2"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

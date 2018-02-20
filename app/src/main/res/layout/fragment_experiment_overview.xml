@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <org.openfermentor.biomonitor.ui.experiment.tabs.overview.views.ExperimentOverviewBasicInfoView
+            android:id="@+id/basicInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <org.openfermentor.biomonitor.ui.experiment.tabs.overview.views.ExperimentOverviewTemperatureView
+            android:id="@+id/temperatureInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <org.openfermentor.biomonitor.ui.experiment.tabs.overview.views.ExperimentOverviewPhView
+            android:id="@+id/phInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <org.openfermentor.biomonitor.ui.experiment.tabs.overview.views.ExperimentOverviewPumpView
+            android:id="@+id/pumpInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

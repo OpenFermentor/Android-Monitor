@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="80dp"
+            android:text="@string/open_fermentor"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            />
+
+        <org.openfermentor.biomonitor.ui.common.views.TextInputField
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="62dp"
+            />
+
+        <org.openfermentor.biomonitor.ui.common.views.TextInputField
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/login"
+            style="@style/Button.Default.Blue"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

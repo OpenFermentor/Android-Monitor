@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/itemContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="25dp"
+    android:padding="16dp"
+    tools:background="@color/fluid_lime"
+    >
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        tools:text="Test Experiment 1"
+        />
+
+
+    <TextView
+        android:id="@+id/itemDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginTop="4dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        tools:text="On 13/12 at 03:59"
+        />
+
+    <TextView
+        android:id="@+id/itemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginTop="12dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white_80"
+        android:textSize="14sp"
+        tools:text="Lorem ipsum dolor sit amet"
+        />
+
+</LinearLayout>

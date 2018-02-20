@@ -1,24 +1,62 @@
 <resources>
-    <string name="app_name" translatable="false">Template</string>
-    <!--TODO: Replace base url with the correct url-->
-    <string name="base_url" translatable="false">https://xmartlabs.com/</string>
+    <string name="app_name" translatable="false">BioMonitor</string>
+    <string name="base_url" translatable="false">https://bio-monitor-staging.herokuapp.com/api/</string>
+    <string name="base_url_socket" translatable="false">https://bio-monitor-staging.herokuapp.com/socket/websocket</string>
+    <string name="channel_id" translatable="false">org.openfermentor.biomonitor</string>
 
-    <string name="skip">Skip</string>
-    <string name="start">Start</string>
-    <string name="next">Next</string>
-    <string name="onboarding_title_1">Welcome to Template!</string>
-    <string name="onboarding_description_1">Onboarding description 1!</string>
-    <string name="onboarding_title_2">Onboarding Title 2!</string>
-    <string name="onboarding_description_2">Onboarding Description 2!</string>
-    <string name="onboarding_title_3">Onboarding Title 3!</string>
-    <string name="onboarding_description_3">Onboarding Description 3!</string>
-    <string name="login">Login</string>
-    <string name="onboarding">Onboarding</string>
-    <string name="recycler_fragment_example">Recycler fragment example</string>
     <string name="error">Error</string>
     <string name="check_your_internet_connection">Check your internet connection and try again</string>
     <string name="no_internet_connection">No internet connection</string>
     <string name="error_service_call_generic">Could not connect to the server. Please try again.</string>
-    <string name="android_mipmap_image">android_mipmap_image</string>
-    <string name="example_empty_view">Empty View Example</string>
+    <string name="system_status">System status</string>
+    <string name="experiments">Experiments</string>
+    <string name="good">Good</string>
+    <string name="balancing">Balancing…</string>
+    <string name="over_supported_range">Over supported range</string>
+    <string name="under_supported_range">Under supported range</string>
+    <string name="temperature_unit" translatable="false">°C</string>
+    <string name="temperature_value_with_unit" translatable="false">%s °C</string>
+    <string name="no_connection">No connection</string>
+    <string name="no_connection_description">No connection could be established with the board.\nPlease check that the board is properly connected and that the local machine has internet connection</string>
+    <string name="no_running_experiment">No running experiment</string>
+    <string name="no_running_experiment_description">The system is up and running. When you\'re ready, start an experiment on the local machine</string>
+    <string name="search_experiment">Search experiment…</string>
+    <string name="temperature">Temperature</string>
+    <string name="ph">pH</string>
+    <string name="experiment">Experiment</string>
+    <string name="home">Home</string>
+    <string name="overview">Overview</string>
+    <string name="report">Report</string>
+    <string name="actions">Actions</string>
+    <string name="strain">Strain</string>
+    <string name="notes">Notes</string>
+    <string name="medium">Medium</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="target">Target</string>
+    <string name="tolerance">Tolerance</string>
+    <string name="peristaltic_pump">Peristaltic Pump</string>
+    <string name="start_at">Start at</string>
+    <string name="pump_for">Pump for</string>
+    <string name="events">Events</string>
+    <string name="reading_error">Reading error</string>
+    <string name="base_calibration">Base calibration</string>
+    <string name="acid_calibration">Acid calibration</string>
+    <string name="temperature_change">Temperature change</string>
+    <string name="system_error">System error</string>
+    <string name="log_entry_date">\'On\' dd/MM \'at\' HH:mm</string>
+    <string name="generic_error">Couldn\'t connect to the server</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="no_log_entries">There are no log entries for this experiment</string>
+    <string name="instruction">Instruction</string>
+    <string name="new_instruction">New instruction</string>
+    <string name="ok">ok</string>
+    <string name="open_fermentor" translatable="false">OpenFermentor</string>
+    <string name="experiment_running">Experiment running</string>
+    <string name="experiment_running_description">There\'s an experiment running. You can see the last readings below</string>
+    <string name="login">login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="empty_login_fields">The email and password cannot be empty</string>
+    <string name="error_while_authenticating">There was an error while authenticating</string>
 </resources>
